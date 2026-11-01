@@ -324,7 +324,7 @@ See the `LICENSE` file for more information.
 
 **Ravi Kumar**
 
-- GitHub: [@ravikr309](https://github.com/ravikr309)
+- GitHub: [@ravikr309](https://github.com/ravikr308)
 - LinkedIn: [Ravi Kumar](https://www.linkedin.com/in/ravikumar309/)
 
 ---
