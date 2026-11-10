@@ -7,7 +7,12 @@ def load_documents_from_dir(data_dir: str | Path) -> list[Document]:
     """
     Scans a directory for PDF files and loads their text and metadata.
     """
-    directory_path = Path(data_dir)
+    directory_path = Path(data_dir).resolve()
+
+    print(f"DEBUG: Looking in EXACT absolute path: {directory_path}")
+    print(f"DEBUG: Does this folder exist? {directory_path.exists()}")
+    print(f"DEBUG: Files in folder: {[f.name for f in directory_path.iterdir() if f.is_file()]}")
+    
     documents: list[Document] = []
     
     # Iterate through all PDFs in the directory

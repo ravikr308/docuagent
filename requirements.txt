@@ -6,3 +6,4 @@ pymupdf
 python-dotenv
 langchain_chroma
 langchain-google-genai
+rank_bm25
