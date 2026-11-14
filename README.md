@@ -16,7 +16,7 @@ Instead of relying entirely on an LLM's pretrained knowledge, DocuAgent retrieve
 - **📚 Context-Aware Responses:** Generates answers based on retrieved document context rather than relying solely on generic LLM knowledge.
 - **🛡️ Grounded Answering:** Designed to avoid unsupported responses when relevant information is unavailable in the knowledge base.
 - **⚡ Efficient Processing:** Uses document chunking and embedding pipelines to prepare information for retrieval.
-- **🐍 Modern Python Tooling:** Uses `uv` for fast dependency management and environment setup.
+- **🐍 Modern Python Tooling:** Uses `uv` for fast dependency management and environment setup
 
 ---
 
